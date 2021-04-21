@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  position: relative;
+  height:100%;
+  width:100%;
+}
+
+.App:after {
+  position:absolute;
+  content:"";
+  right: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100px;
+  cursor: url(./logo.png), auto;
+}
+
