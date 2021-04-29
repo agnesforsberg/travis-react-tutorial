@@ -18,7 +18,7 @@ test('test number plus 1', () => {
     expect(number.textContent).toBe('2')
 })
 
-test('test number plus 1', () => {
+test('test number minus 1', () => {
     render(<App/>)
     const minusButton = screen.getByRole('button', {name: '-'})
     const number = screen.getByText('1')
