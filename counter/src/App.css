@@ -5,13 +5,29 @@
   width:100%;
 }
 
-.App:after {
-  position:absolute;
-  content:"";
-  right: 0;
-  bottom: 0;
-  height: 100px;
-  width: 100px;
-  cursor: url(./logo.png), auto;
+#wrapper {
+  height: 100%;
+  padding: 10%;
+}
+
+button {
+  height: 250px;
+  width: 250px;
+  font-size: 150px;
+}
+
+#number {
+  font-size: 250px;
+  display: inline-block;
+  margin: 50px;
+}
+
+#madeBy:after {
+  content: 'Made by Agnes and George'
+}
+
+#madeBy:hover:after{
+  font-size: 50px;
+  content: "WE LOVE DEVOPS"
 }
 
