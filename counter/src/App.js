@@ -9,9 +9,9 @@ function App() {
     <div className="App">
         <h1>COUNTER</h1>
         <div id="wrapper"  >
-          <button onClick={() => setNum(num - 1)} >-</button>
-          <p id="number" > {num} </p> 
-          <button onClick={() => setNum(num + 1)} >+</button>
+          <button id="minusButton" onClick={() => setNum(num - 1)} >-</button>
+          <p id="number" >{num}</p> 
+          <button id="plusButton" onClick={() => setNum(num + 1)} >+</button>
         </div>
         <div id="madeBy"></div>
     </div>
